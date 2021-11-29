@@ -1,0 +1,44 @@
+{
+  "screens": [
+    {
+      "id": "login-1",
+      "name": "Username Entry",
+      "type": "login",
+      "components": "",
+      "layout": "",
+      "data": "",
+      "success": "login-2",
+      "fail": "login-1"
+    },
+    {
+      "id": "login-2",
+      "name": "Password Entry",
+      "type": "login",
+      "components": "",
+      "layout": "",
+      "data": "rhiad-screen-data-login-2.json",
+      "success": "kyc-3",
+      "fail": "login-1"
+    },
+    {
+      "id": "kyc-3",
+      "name": "Mobile Number Entry",
+      "type": "kyc",
+      "components": "",
+      "layout": "",
+      "data": "",
+      "success": "home",
+      "fail": "login-1"
+    },
+    {
+      "id": "home",
+      "name": "Home",
+      "type": "home",
+      "components": "",
+      "layout": "",
+      "data": "",
+      "success": "home",
+      "fail": "home"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "type": "VerticalLayout",
+  "elements": [
+    {
+      "type": "Control",
+      "scope": "#/properties/email"
+    },
+    {
+      "type": "Control",
+      "scope": "#/properties/mobile"
+    },
+    {
+      "type": "Control",
+      "scope": "#/properties/submit",
+      "label": "Submit Contact Details",
+      "action": {
+        "type": "submit",
+        "method": "POST",
+        "url": "https://localhost:3000/form/submit/kyc-2",
+        "success": "kyc-3",
+        "fail": "login-1"
+      }
+    }
+  ]
+}

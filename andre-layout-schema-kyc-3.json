@@ -1,0 +1,25 @@
+{
+  "type": "VerticalLayout",
+  "elements": [
+    {
+      "type": "Control",
+      "scope": "#/properties/nationality"
+    },
+    {
+      "type": "Control",
+      "scope": "#/properties/occupation"
+    },
+    {
+      "type": "Control",
+      "scope": "#/properties/submit",
+      "label": "Submit Misc Details",
+      "action": {
+        "type": "submit",
+        "method": "POST",
+        "url": "https://localhost:3000/form/submit/kyc-3",
+        "success": "home",
+        "fail": "login-1"
+      }
+    }
+  ]
+}

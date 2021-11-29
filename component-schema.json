@@ -1,0 +1,40 @@
+{
+  "type": "object",
+  "title": "Person",
+  "properties": {
+    "name": {
+      "type": "string",
+      "minLength": 3
+    },
+    "birthDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "email": {
+      "type": "string",
+      "minLength": 5
+    },
+    "mobile": {
+      "type": "string",
+      "minLength": 5
+    },
+    "nationality": {
+      "type": "string",
+      "enum": [
+        "UK",
+        "DE",
+        "IT",
+        "JP",
+        "US",
+        "RU",
+        "Other"
+      ]
+    },
+    "occupation": {
+      "type": "string"
+    },
+    "submit": {
+      "type": "string"
+    }
+  }
+}

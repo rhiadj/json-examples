@@ -1,0 +1,25 @@
+{
+  "type": "VerticalLayout",
+  "elements": [
+    {
+      "type": "Control",
+      "scope": "#/properties/name"
+    },
+    {
+      "type": "Control",
+      "scope": "#/properties/birthDate"
+    },
+    {
+      "type": "Control",
+      "scope": "#/properties/submit",
+      "label": "Submit Personal Information",
+      "action": {
+        "type": "submit",
+        "method": "POST",
+        "url": "https://localhost:3000/form/submit/kyc-1",
+        "success": "kyc-2",
+        "fail": "login-1"
+      }
+    }
+  ]
+}
