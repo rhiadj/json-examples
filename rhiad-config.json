@@ -16,7 +16,7 @@
       "type": "login",
       "components": "",
       "layout": "",
-      "data": "rhiad-screen-data-login-2.json",
+      "data": "https://raw.githubusercontent.com/rhiadj/json-examples/master/rhiad-screen-data-login-2.json",
       "success": "kyc-3",
       "fail": "login-1"
     },

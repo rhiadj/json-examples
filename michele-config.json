@@ -16,7 +16,7 @@
       "type": "login",
       "components": "",
       "layout": "",
-      "data": "michele-screen-data-login-2.json",
+      "data": "https://raw.githubusercontent.com/rhiadj/json-examples/master/michele-screen-data-login-2.json",
       "success": "home",
       "fail": "login-1"
     },
